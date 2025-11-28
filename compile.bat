@@ -1,0 +1,1 @@
+gcc -o bin/main src/main.c -lbcrypt && bin\main

@@ -1,0 +1,52 @@
+# Build artifacts
+*.o
+*.obj
+*.elf
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# Compiled source files
+*.s
+*.asm
+
+# Debug files
+*.gch
+*.gcno
+*.gcda
+*.gcov
+
+# Dependency files
+*.d
+
+# Logs
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+build*/
+
+# Autotools
+/.deps
+/.libs
+/config.log
+/config.status
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Misc
+*.swp
+*.DS_Store
