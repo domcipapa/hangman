@@ -10,16 +10,16 @@
 #define FILE_NAME "words.txt"
 #define STAGE_ROWS 7
 
-//          +---+          Topic: fuck niggers
+//          +---+          Topic: IT
 //          |   |          Right: 69
 //          O   |          Wrong: 420
 //         /|\  |
 //         / \  |
-//              |          Word: _ate _iggers
-//       ==========        Wrong guesses: h, n
+//              |          Word: c_mpu_er sci_nc_
+//       ==========        Wrong guesses: x, y, z
 
 const char *stages[][STAGE_ROWS] = {
-    {   // Stage 0
+    {   // stage 0
         "   +---+\n",
         "   |   |\n",
         "       |\n",
@@ -29,27 +29,27 @@ const char *stages[][STAGE_ROWS] = {
         "==========\n"
     },
 
-    {   // Stage 1
-        "   +---+\n",
-        "   |   |\n",
-        "   O   |\n",
-        "       |\n",
-        "       |\n",
-        "       |\n",
-        "==========\n"
-    },
-
-    {   // Stage 2
+    {   // stage 1
         "   +---+\n",
         "   |   |\n",
         "   O   |\n",
+        "       |\n",
+        "       |\n",
+        "       |\n",
+        "==========\n"
+    },
+
+    {   // stage 2
+        "   +---+\n",
+        "   |   |\n",
+        "   O   |\n",
         "   |   |\n",
         "       |\n",
         "       |\n",
         "==========\n"
     },
 
-    {   // Stage 3
+    {   // stage 3
         "   +---+\n",
         "   |   |\n",
         "   O   |\n",
@@ -59,7 +59,7 @@ const char *stages[][STAGE_ROWS] = {
         "==========\n"
     },
 
-    {   // Stage 4
+    {   // stage 4
         "   +---+\n",
         "   |   |\n",
         "   O   |\n",
@@ -69,7 +69,7 @@ const char *stages[][STAGE_ROWS] = {
         "==========\n"
     },
 
-    {   // Stage 5
+    {   // stage 5
         "   +---+\n",
         "   |   |\n",
         "   O   |\n",
@@ -79,7 +79,7 @@ const char *stages[][STAGE_ROWS] = {
         "==========\n"
     },
 
-    {   // Stage 6
+    {   // stage 6
         "   +---+\n",
         "   |   |\n",
         "   O   |\n",
@@ -301,3 +301,4 @@ char *random_word(char **words, size_t words_size) {
 
     return word_copy;
 }
+
