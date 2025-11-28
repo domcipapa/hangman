@@ -1,1 +1,1 @@
-gcc -o bin/main src/main.c -lbcrypt && bin\main
+gcc -o bin/hangman src/main.c -lbcrypt && bin\hangman
